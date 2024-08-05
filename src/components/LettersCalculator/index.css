@@ -1,0 +1,72 @@
+/* Write your code here. */
+.lab-container {
+  display: flex;
+  flex-direction: column;
+  font-family: 'roboto';
+  font-size: 20px;
+  color: #e4e7eb;
+  margin-bottom: 20px;
+}
+.inp {
+  background-color: transparent;
+  border-color: #ffffff;
+  border-width: 2px;
+  border-radius: 3px;
+  color: #ffffff;
+  height: 30px;
+  box-shadow: none;
+}
+.button {
+  background-color: #ffffff;
+  color: #219a6f;
+  border: 5px;
+  width: 150px;
+  height: 50px;
+  font-size: 20px;
+  border-radius: 5px;
+  border-width: 0px;
+  padding-top: 10px;
+  padding-left: 5px;
+}
+.main {
+  background-image: linear-gradient(to right, #1d976c, #93f9b9);
+  height: 130vh;
+  background-size: cover;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px;
+}
+.head {
+  font-family: 'roboto';
+  font-size: 35px;
+  color: white;
+}
+.logo {
+  width: 500px;
+  height: 500px;
+}
+
+@media screen and (max-width: 768px) {
+  .logo {
+    order: 1;
+  }
+  .text-container {
+    order: 2;
+  }
+  .main {
+    background-image: linear-gradient(to right, #1d976c, #93f9b9);
+    height: 110vh;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+    padding: 50px;
+  }
+  .logo {
+    width: 200px;
+    height: 200px;
+  }
+}
